@@ -149,8 +149,5 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
-# RIL
-ENABLE_VENDOR_RIL_SERVICE := true
-
 # SELinux
 -include device/xiaomi/lmi/sepolicy/lmi-sepolicy.mk
