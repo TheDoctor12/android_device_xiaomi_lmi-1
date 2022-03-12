@@ -206,6 +206,11 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.crypto.volume.options=::v2 \
     ro.hardware.keystore_desede=true
 
+# Keyboard height ratio and bottom padding in dp for portrait mode
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.com.google.ime.height_ratio=1.0 \
+    ro.com.google.ime.kb_pad_port_b=1
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
