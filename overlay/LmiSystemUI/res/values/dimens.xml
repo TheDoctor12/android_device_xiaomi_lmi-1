@@ -30,4 +30,7 @@
     <!-- Bottom margin size -->
     <dimen name="keyguard_indication_margin_bottom">82dp</dimen>
 
+    <!-- With the large clock, move up slightly from the center -->
+    <dimen name="keyguard_large_clock_top_margin">-152dp</dimen>
+
 </resources>
