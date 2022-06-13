@@ -329,9 +329,6 @@ $(call inherit-product, vendor/xiaomi/lmi/lmi-vendor.mk)
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml
 
-# VNDK
-PRODUCT_EXTRA_VNDK_VERSIONS := 30
-
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
