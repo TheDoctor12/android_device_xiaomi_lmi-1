@@ -1328,7 +1328,6 @@ vendor/lib64/mediadrm/libwvdrmengine.so|f2efd7aca365d6b09f906ff4f71fc24881cda816
 vendor/lib64/libwvhidl.so|3325405fc88d83ce1f9cd7a77fb4c81fae603f00
 
 # WiFi - MIUI
-vendor/bin/cnss-daemon|8ab1521554029afd7535d580b3aba69eb3efb206
 vendor/bin/nv_mac|e2f1ef1af56ccee4c630c9c939f1937127940a9f
 
 # WiFi Display
