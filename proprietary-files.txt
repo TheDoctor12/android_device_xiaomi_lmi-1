@@ -707,7 +707,6 @@ vendor/lib64/libdiag.so
 # Display
 vendor/bin/hw/vendor.display.color@1.0-service 
 vendor/bin/feature_enabler_client 
-vendor/bin/ppd 
 vendor/bin/qdcmss 
 vendor/etc/init/feature_enabler_client.rc 
 vendor/etc/init/qdcmss.rc 
