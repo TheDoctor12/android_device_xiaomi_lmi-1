@@ -44,6 +44,7 @@ void load_dalvikvm_properties() {
 }
 
 void load_redmi_k30_pro_zoom_edition() {
+    property_override("bluetooth.device.default_name", "Redmi K30 Pro Zoom Edition");
     property_override("ro.boot.hardware.sku", "pro");
     property_override("ro.product.brand", "Redmi");
     property_override("ro.product.device", "lmipro");
@@ -53,6 +54,7 @@ void load_redmi_k30_pro_zoom_edition() {
 }
 
 void load_redmi_k30_pro() {
+    property_override("bluetooth.device.default_name", "Redmi K30 Pro");
     property_override("ro.boot.hardware.sku", "std");
     property_override("ro.product.brand", "Redmi");
     property_override("ro.product.device", "lmi");
@@ -62,6 +64,7 @@ void load_redmi_k30_pro() {
 }
 
 void load_poco_f2_pro() {
+    property_override("bluetooth.device.default_name", "POCO F2 Pro");
     property_override("ro.product.brand", "POCO");
     property_override("ro.product.device", "lmi");
     property_override("ro.product.manufacturer", "Xiaomi");
