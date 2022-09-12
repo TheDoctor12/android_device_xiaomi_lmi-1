@@ -340,6 +340,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.sys.thermal.data.path=/data/vendor/thermal/
 
+# USB
+ifneq ($(TARGET_BUILD_VARIANT),user)
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.usb.config=mtp,adb
+endif
+
 # Vendor
 $(call inherit-product, vendor/xiaomi/lmi/lmi-vendor.mk)
 
