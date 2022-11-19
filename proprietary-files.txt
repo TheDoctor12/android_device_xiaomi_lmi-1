@@ -395,7 +395,7 @@ vendor/lib64/camera/components/com.mi.node.rearvideo.so|b2014c6b1310e71c82b04090
 vendor/lib64/camera/components/com.mi.node.skinbeautifier.so|743879bdd252347888d24356c2b5450d2b26f645
 vendor/lib64/camera/components/com.mi.node.superlowlightraw.so|d8624052cabf010015d3924769dc43ab2308d2a9
 vendor/lib64/camera/components/com.mi.node.videobokeh.so|9e0fad51c29567cc3cbd381803ee2e895bcf18a8
-vendor/lib64/camera/components/com.mi.node.watermark.so|98c4ad92a3ceef803a247226e4d2ed97c3bb0dfe
+vendor/lib64/camera/components/com.mi.node.watermark.so|8c10d25f6f18a3d6f5b9a15df9465f45d9d60adf
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so|8ecf45d39befa53a2f2e676a313b4046e3a82c36
 vendor/lib64/camera/components/com.qti.eisv2.so|922283630dbb9cc40530b802941a3fbb27b49166
 vendor/lib64/camera/components/com.qti.eisv3.so|f0a0b0eb5f54f7eaaa38ab6f8aa2ce7cc3b42b94

@@ -67,6 +67,9 @@ function blob_fixup() {
             sed -i "s|/vendor/lib/liba2dpoffload\.so|liba2dpoffload_lmi\.so\x00\x00\x00\x00\x00\x00\x00|g" "${2}"
             sed -i "s|/vendor/lib/libssrec\.so|libssrec_lmi\.so\x00\x00\x00\x00\x00\x00\x00|g" "${2}"
             ;;
+        vendor/lib64/camera/components/com.mi.node.watermark.so)
+            "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
+            ;;
     esac
 }
 
