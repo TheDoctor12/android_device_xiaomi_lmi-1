@@ -15,6 +15,7 @@
  */
 #include <vector>
 
+#include <android-base/logging.h>
 #include <android-base/properties.h>
 #define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
 #include <sys/_system_properties.h>
@@ -75,12 +76,14 @@ void load_poco_f2_pro() {
 void vendor_load_properties() {
     std::string region = GetProperty("ro.boot.hwc", "");
     std::string variant = GetProperty("ro.boot.product.hardware.sku", "");
-    if (variant.find("pro") != std::string::npos) {
-        load_redmi_k30_pro_zoom_edition();
-    } else if (region.find("CN") != std::string::npos) {
-        load_redmi_k30_pro();
-    } else {
-        load_poco_f2_pro();
+    if (access("/system/bin/recovery", F_OK) != 0) {
+        if (variant.find("pro") != std::string::npos) {
+            load_redmi_k30_pro_zoom_edition();
+        } else if (region.find("CN") != std::string::npos) {
+            load_redmi_k30_pro();
+        } else {
+            load_poco_f2_pro();
+        }
     }
 
     load_dalvikvm_properties();
