@@ -45,7 +45,6 @@ void load_dalvikvm_properties() {
 
 void load_redmi_k30_pro_zoom_edition() {
     property_override("ro.boot.hardware.sku", "pro");
-
     property_override("ro.product.brand", "Redmi");
     property_override("ro.product.device", "lmipro");
     property_override("ro.product.manufacturer", "Xiaomi");
@@ -55,7 +54,6 @@ void load_redmi_k30_pro_zoom_edition() {
 
 void load_redmi_k30_pro() {
     property_override("ro.boot.hardware.sku", "std");
-
     property_override("ro.product.brand", "Redmi");
     property_override("ro.product.device", "lmi");
     property_override("ro.product.manufacturer", "Xiaomi");
@@ -68,7 +66,7 @@ void load_poco_f2_pro() {
     property_override("ro.product.device", "lmi");
     property_override("ro.product.manufacturer", "Xiaomi");
     property_override("ro.product.model", "POCO F2 Pro");
-    property_override("ro.product.name", "lmi");
+    property_override("ro.product.name", "lmi_global");
 }
 
 void vendor_load_properties() {
