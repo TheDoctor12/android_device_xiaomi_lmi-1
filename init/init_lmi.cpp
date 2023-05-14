@@ -68,7 +68,7 @@ void load_poco_f2_pro() {
     property_override("ro.product.device", "lmi");
     property_override("ro.product.manufacturer", "Xiaomi");
     property_override("ro.product.model", "POCO F2 Pro");
-    property_override("ro.product.name", "lmi");
+    property_override("ro.product.name", "lmi_global");
 }
 
 void vendor_load_properties() {
