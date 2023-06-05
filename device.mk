@@ -255,8 +255,23 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
-    all \
-    charging
+    adreno \
+    audio \
+    av \
+    bt \
+    charging \
+    display \
+    gps \
+    init \
+    media \
+    nfc \
+    overlay \
+    perf \
+    telephony \
+    usb \
+    vibrator \
+    wfd \
+    wlan
 
 # Recovery
 PRODUCT_VENDOR_PROPERTIES += \
