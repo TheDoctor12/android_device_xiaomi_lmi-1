@@ -81,11 +81,13 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 # Camera
 $(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
 
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera \
+    ro.product.mod_device=lmi_global \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
+
 PRODUCT_VENDOR_PROPERTIES += \
     camera.disable_zsl_mode=true
-
-PRODUCT_SYSTEM_PROPERTIES += \
-    ro.product.mod_device=lmi_global
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
