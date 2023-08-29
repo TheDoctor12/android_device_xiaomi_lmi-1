@@ -24,6 +24,17 @@ if [ ! -f "${HELPER}" ]; then
 fi
 source "${HELPER}"
 
+function vendor_imports() {
+    cat <<EOF >>"$1"
+        "hardware/xiaomi",
+        "vendor/qcom/common/vendor/adreno-r",
+        "vendor/qcom/common/vendor/display",
+        "vendor/qcom/common/vendor/display/4.19",
+        "vendor/qcom/common/vendor/gps-legacy",
+        "vendor/qcom/common/vendor/media-legacy",
+EOF
+}
+
 # Initialize the helper.
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 
