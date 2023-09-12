@@ -79,9 +79,6 @@ DEVICE_MANIFEST_FILE += \
     $(DEVICE_PATH)/configs/vintf/manifest.xml \
     $(DEVICE_PATH)/configs/vintf/xiaomi_manifest.xml
 
-# Hacks
-BUILD_BROKEN_DUP_RULES := true
-
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_lmi
 
