@@ -1152,6 +1152,20 @@ vendor/etc/sensors/sensor_diag.cfg|a90a807b6e1a0ff524e13b0cc0e05a1a2845d48d
 vendor/etc/sensors/sns_reg_config|cea8c9f674c039de77bb7f743d8a9122ab8b6897
 vendor/etc/elliptic_sensor.xml|c821cade58e0f10972fc5c81c24044db71e0619a
 
+# Sensors (citsensor) - MIUI
+vendor/lib/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so|8ab2792412c17bb43cf61a78730b5440edcdb4ea
+vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.0_vendor.so|ceb683d1fd8ef35814e5b137e3645db1932d41ea
+vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.0.so|3244b39cefe794e25bbc19120b32c4355ffc01ba
+vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.1.so|16cf37814a436058ccf65a91e6022824bc35dcf6
+vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.1_vendor.so|6f2bb4d42db1032d3e821583568b93e61a78702a
+vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc|09f221139f9adabaec1d08555de69cf23db0be15
+vendor/lib64/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so|4da1849d1f5de3bee63dc1944ed44bf6f5dfe604
+vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0_vendor.so|c9544407f540b1fe8d2835672b077b455bcabe4b
+vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so|7ec5f103171601b6932ad215a1c51c3c1445d7b4
+vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so|4812498e69d56d3faba698d7196796371f4383d8
+vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1_vendor.so|2fcf0cab0eb83a72c3f92ca43afa0f54269b9334
+vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service|3d3d4f122c60b531d796b4e807dfb41c8f594682
+
 # SecureMSM (GPQESE)
 vendor/bin/hw/vendor.qti.esepowermanager@1.1-service 
 vendor/bin/hw/vendor.qti.secure_element@1.2-service 
