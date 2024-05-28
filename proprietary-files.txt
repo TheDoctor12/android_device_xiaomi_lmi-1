@@ -238,7 +238,7 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
 # Charger (Battery Cryptographic) - MIUI
 vendor/bin/batterysecret|7fc17a38e688aa68b416ebfb230f5cc95bdbf901
-vendor/etc/init/init.batterysecret.rc|9abbe6fd82a0bd5b4499bfe141a5645e76e57606
+vendor/etc/init/init.batterysecret.rc|b4a4a599537c84211527f9892fcf89dbaaae65c5
 
 # Camera - MIUI
 vendor/lib64/camera/com.qti.eeprom.lmi_sunny_imx686_gt24p64b.so|ac99ecbf224eec040b8146e1bd293ccb2a879e24
