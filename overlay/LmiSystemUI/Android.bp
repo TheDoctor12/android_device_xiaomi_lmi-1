@@ -14,6 +14,5 @@
 
 runtime_resource_overlay {
     name: "LmiSystemUI",
-    sdk_version: "current",
     device_specific: true,
 }
