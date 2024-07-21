@@ -170,4 +170,4 @@ service vendor.btmac-sh /vendor/bin/init.mi.btmac.sh
     disabled
 
 on property:ro.boot.hwlevel=*
-    setprop ro.boot.hardware.revision ${ro.boot.hwlevel}
+    setprop ro.boot.hardware.revision ${ro.boot.hwc}_${ro.boot.hwlevel}_${ro.boot.hwversion}
