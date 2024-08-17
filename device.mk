@@ -100,11 +100,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service_64 \
-    libcamera2ndk_vendor \
-    libstdc++.vendor \
-    vendor.qti.hardware.camera.device@1.0.vendor \
-    vendor.qti.hardware.camera.postproc@1.0.vendor
+    android.hardware.camera.provider@2.4-service_64
 
 # Charging
 PRODUCT_VENDOR_PROPERTIES += \
@@ -166,8 +162,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.xiaomi \
-    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor \
-    vendor.xiaomi.hardware.touchfeature@1.0.vendor \
     libudfpshandler
 
 # FRP
@@ -322,12 +316,6 @@ PRODUCT_COPY_FILES += \
 
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 30
-
-PRODUCT_PACKAGES += \
-    android.hardware.drm@1.4.vendor \
-    android.hardware.gatekeeper@1.0.vendor \
-    android.hardware.keymaster@4.1.vendor \
-    android.hardware.neuralnetworks@1.3.vendor
 
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
