@@ -134,6 +134,8 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.vendor.use_data_netmgrd=true
 
 # Display
+TARGET_USE_AIDL_QTI_MEMTRACK := true
+
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.display.paneltype=2 \
     ro.vendor.display.sensortype=2 \
