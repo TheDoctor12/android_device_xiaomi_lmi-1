@@ -66,6 +66,9 @@ function lib_to_package_fixup_vendor_variants() {
             vendor.qti.latency*)
             echo "$1_vendor"
             ;;
+        libOmxCore | \
+            libgrallocutils | \
+            libwpa_client) ;;
         *)
             return 1
             ;;
