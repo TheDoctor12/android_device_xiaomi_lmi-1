@@ -154,7 +154,8 @@ PRODUCT_VENDOR_PROPERTIES += \
     drm.service.enabled=true
 
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.4-service.clearkey
+    android.hardware.drm@1.4-service.clearkey \
+    libcrypto_shim
 
 # Fastboot
 PRODUCT_PACKAGES += \
