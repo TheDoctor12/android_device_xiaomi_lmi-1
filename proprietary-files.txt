@@ -265,10 +265,10 @@ vendor/lib64/com.qti.feature2.softispsupernight.so|14c69b7d91fa87246c583e19302b9
 vendor/lib64/com.qti.feature2.sr.so|b7fe63e2cb9f8dea26394ad6344906940023d73b
 vendor/lib64/com.qti.feature2.stub.so|58c843a590832ed7d9274c60183c3a50ad4381c7
 vendor/lib64/com.qti.feature2.swmf.so|452bc7729f6ec664f33e75ad22383330e4aa9d95
-vendor/lib64/libalAILDC.so|3f7421b6a20322e9772adb71ceb1f45e48f48ed7
+vendor/lib64/libalAILDC.so;DISABLE_CHECKELF|3f7421b6a20322e9772adb71ceb1f45e48f48ed7
 vendor/lib64/libalCFR.so|959a84f814eb816080ec500e56f37ede4c1a43a7
-vendor/lib64/libalhLDC.so|e9e08ea866d7e5f927986886490e3eb528d0c6b9
-vendor/lib64/libalLDC.so|94ecf7486ce9ca4c6c26adcadcc12d64b02ead4c
+vendor/lib64/libalhLDC.so;DISABLE_CHECKELF|e9e08ea866d7e5f927986886490e3eb528d0c6b9
+vendor/lib64/libalLDC.so;DISABLE_CHECKELF|94ecf7486ce9ca4c6c26adcadcc12d64b02ead4c
 vendor/lib64/libarcdualcamsat.so|f0a6cf7dc6d13384a26fb6e451bfa5e2d35344a0
 vendor/lib64/libarcsat.so|0d86e1503e827c0f6e2f2350c4953a9faa42c363
 vendor/lib64/libarcmulticamsat.so|97252f0b958d8f9485aa51b4c2a547bfc551dbc5
@@ -296,12 +296,12 @@ vendor/lib64/libHalSuperSensorServer.so|fdb83a8bf01ad84340951381b1f9481fbfaa95d4
 vendor/lib64/libipebpsstriping.so|0894e54002e18443481f0b90e87c32fcc8783c38
 vendor/lib64/libmegface.so|8f67d986f23a110e48a2c6c57024ac3dee4993aa
 vendor/lib64/libMegviiFacepp-0.5.2.so|a439145c3700d62446af21fe385775e6d5cb1a9a
-vendor/lib64/libMIAIHDRhvx_interface.so|8f3b1ec1c38b16b457d0dfc8bfab705c2a8ca258
-vendor/lib64/libmialgoengine.so|4b3c5b1fb66613abcd44a6a3f06aa87370e74ed6
+vendor/lib64/libMIAIHDRhvx_interface.so;DISABLE_CHECKELF|8f3b1ec1c38b16b457d0dfc8bfab705c2a8ca258
+vendor/lib64/libmialgoengine.so;DISABLE_CHECKELF|4b3c5b1fb66613abcd44a6a3f06aa87370e74ed6
 vendor/lib64/libmialgo_ie_capture.so|627a0ee53075cd6ad0f9476ec91efd188423ae56
 vendor/lib64/libmialgo_ie_preview.so|689f9cba4d8948a2a3da5c0b0a547eb63f4179dc
 vendor/lib64/libmialgo_image_colourkeeping.so|f217702c1be45bf08a1040ee17123bf5782413a7
-vendor/lib64/libmialgo_rfs.so|c2f7fba9adfba3c989c3907c84b6487010650189
+vendor/lib64/libmialgo_rfs.so;DISABLE_CHECKELF|c2f7fba9adfba3c989c3907c84b6487010650189
 vendor/lib64/libmialgo_sd.so|5a8e299329a2c8018f70280b088b12c4709ffb44
 vendor/lib64/libmialgo_utils.so|6d0cca66b9efa843b22e57fae59af2ce25ac8b9a
 vendor/lib64/libmialgo_video_colourkeeping.so|9ea8ac8083dbd5aef5ced732ff55b17611f79610
@@ -358,14 +358,14 @@ vendor/lib64/libarcsoft_dualcam_refocus.so|41c7b192f70ef9a937503acfe563e154fb70c
 vendor/lib64/libarcsoft_dualcam_refocus_front.so|145dc6f5aa82791664dc8394eb4c96854eafae24
 vendor/lib64/libarcsoft_dualcam_refocus_rear_t.so|5cf97466cf87ae7065d0faceac8a9cfec2976b76
 vendor/lib64/libarcsoft_dualcam_refocus_rear_w.so|217179e37ee68352ea13e5e32c21f3b559df2864
-vendor/lib64/libarcsoft_hdrplus_hvx_stub.so|1fa294070c1ad424b596467b54cc8470f59a4079
+vendor/lib64/libarcsoft_hdrplus_hvx_stub.so;DISABLE_CHECKELF|1fa294070c1ad424b596467b54cc8470f59a4079
 vendor/lib64/libarcsoft_hdr_detection.so|f98f6e54d9dfd53e5734e9e175ffa29429d0221b
 vendor/lib64/libarcsoft_high_dynamic_range.so|456ce3aad7b1cf694815e8f00d5d55d19ca757e9
 vendor/lib64/libarcsoft_portrait_lighting.so|1bc7b14fe69e617529e4dda74e4ef1081ea2ada0
 vendor/lib64/libarcsoft_portrait_lighting_c.so|ca42fa6fc25e231ca70e1caf80a08b18ccfd3d99
 vendor/lib64/libarcsoft_preview_deflicker.so|7b68a5764a2be4f3760cd82fe9a349c2eb4d3898
 vendor/lib64/libarcsoft_superportrait.so|ec54a500e4a8de54951c176fefe9759e80bce806
-vendor/lib64/libarcsoft_super_night_raw.so|b0f866a4fb169ea0ab443655dea82466ac6c492f
+vendor/lib64/libarcsoft_super_night_raw.so;DISABLE_CHECKELF|b0f866a4fb169ea0ab443655dea82466ac6c492f
 
 # Camera (camerax) - MIUI
 vendor/lib64/libcamxexternalformatutils.so|805f12d10750aab4a0166c8d0ee8e95caaf116e9
@@ -526,7 +526,7 @@ vendor/app/CACertService/CACertService.apk
 vendor/app/CneApp/CneApp.apk;REQUIRED=CneApp.libvndfwk_detect_jni.qti_symlink
 vendor/app/IWlanService/IWlanService.apk 
 vendor/bin/cnd 
-vendor/bin/mutualex 
+vendor/bin/mutualex;DISABLE_CHECKELF 
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml 
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml 
 vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml 
@@ -560,13 +560,13 @@ vendor/etc/default-permissions/com.qualcomm.qti.cne.xml
 vendor/etc/init/cnd.rc 
 vendor/etc/init/mutualex.rc 
 vendor/lib64/libcacertclient.so 
-vendor/lib64/libcne.so 
+vendor/lib64/libcne.so;DISABLE_CHECKELF 
 vendor/lib64/libcneapiclient.so 
 vendor/lib64/libcneoplookup.so 
 vendor/lib64/libcneqmiutils.so 
 vendor/lib64/libjnihelper.so 
 vendor/lib64/libwms.so 
-vendor/lib64/libwqe.so 
+vendor/lib64/libwqe.so;DISABLE_CHECKELF 
 vendor/lib64/libxml.so 
 vendor/lib64/vendor.qti.data.factory@2.0.so 
 vendor/lib64/vendor.qti.data.factory@2.1.so 
@@ -855,9 +855,9 @@ vendor/lib64/libsoc_helper_jni.so
 # QMI
 vendor/bin/irsc_util 
 vendor/bin/qmipriod 
-vendor/bin/qrtr-cfg 
+vendor/bin/qrtr-cfg;DISABLE_CHECKELF 
 vendor/bin/qrtr-lookup 
-vendor/bin/qrtr-ns 
+vendor/bin/qrtr-ns;DISABLE_CHECKELF 
 vendor/etc/init/qmipriod.debug.rc 
 vendor/etc/init/qmipriod.rc 
 vendor/etc/seccomp_policy/qti-systemd.policy 
@@ -1217,7 +1217,7 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 vendor/bin/ssr_setup 
 
 # TFTP
-vendor/bin/tftp_server 
+vendor/bin/tftp_server;DISABLE_CHECKELF 
 vendor/etc/init/vendor.qti.tftp.rc 
 
 # TLOC
@@ -1442,7 +1442,7 @@ vendor/lib/libwfdhdcpcp.so
 vendor/lib/libwfdhdcpservice_proprietary.so
 vendor/lib/libwfdmminterface_proprietary.so
 vendor/lib/libwfdmmservice_proprietary.so
-vendor/lib/libwfdmmsrc_proprietary.so
+vendor/lib/libwfdmmsrc_proprietary.so;DISABLE_CHECKELF
 vendor/lib/libwfdmodulehdcpsession.so
 vendor/lib/libwfdrtsp_proprietary.so
 vendor/lib/libwfdsessionmodule.so
