@@ -695,9 +695,9 @@ vendor/etc/tunings.txt|196b4cc4410dd4c521ace955a225b4c8b47268a4
 
 # FASTCV
 vendor/lib/libfastcvdsp_stub.so 
--vendor/lib/libfastcvopt.so 
+vendor/lib/libfastcvopt.so 
 vendor/lib64/libfastcvdsp_stub.so 
--vendor/lib64/libfastcvopt.so 
+vendor/lib64/libfastcvopt.so 
 
 # Fingerprint - MIUI
 vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so;FIX_SONAME|24005c25abfe189e979776fed65d7496ee1d3a0c
@@ -1146,8 +1146,8 @@ vendor/bin/mi_thermald|e995fe8bddc257a28c9266ebd0d548e53e2714c9
 vendor/etc/init/init.mi_thermald.rc|6505d89e19957888612d89f6769585a7d26af080
 vendor/bin/thermal-engine|f0d8db5cc6870a1db91897307cb42e5b2e0b8d0c
 vendor/etc/init/init_thermal-engine.rc|18ecd3b7618e278465cd0a9d2bf180c3f7bd020e
--vendor/lib/libthermalclient.so|6ed686c6c39546a7bf532767f6d87808a42b1176
--vendor/lib64/libthermalclient.so|7bcb4af9a6ae8d12bb0b2749c85e2ff1473678aa
+vendor/lib/libthermalclient.so|6ed686c6c39546a7bf532767f6d87808a42b1176
+vendor/lib64/libthermalclient.so|7bcb4af9a6ae8d12bb0b2749c85e2ff1473678aa
 vendor/etc/thermal-arvr.conf|718e02070369f84d37920cb31e1bb79c85f0c06e
 vendor/etc/thermal-camera.conf|125e38cec3374104f3351a0d1d8786ce0973e64e
 vendor/etc/thermal-chg-only.conf|a2cbdc1b67740fdec677bad599390f9d101c6f56
