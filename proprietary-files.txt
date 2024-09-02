@@ -114,10 +114,10 @@ vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp|bec8ff6fd080c92828a5fa56ef1ed
 vendor/etc/acdbdata/adsp_avs_config.acdb|bd5453d6fd844ccc4a5160a4cbd7871dcd1aa655
 
 # Audio - MIUI
-vendor/lib/hw/audio.primary.kona.so|cea14066457464cdc9ae644250477f9db9b5f931
+vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.lmi.so|cd4503723654e0e8be160d5dda96c44730484292
 vendor/lib/hw/sound_trigger.primary.kona.so|a92730e808e5cca4ed289aaff8d2adf0cc2e7906
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so|ee89b7cb4e0476688ac8c1a669dfe89c660b1a76
-vendor/lib/liba2dpoffload.so|80979b4fd8d7488f59b19faf541a57a3da7fd3e1
+vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_lmi.so|80979b4fd8d7488f59b19faf541a57a3da7fd3e1
 vendor/lib/libacdb-fts.so|f433dcd0ecd2bce239b31e1e3a8995acb96f3b5e
 vendor/lib/libacdbloader.so|2b8490869f1ef4e56e7f86d3e95a474bca7ff23b
 vendor/lib/libacdbrtac.so|27bde7dc2f546ae498d5f7956e21f2ce594c9d03
@@ -145,7 +145,7 @@ vendor/lib/libmulawdec.so|89ebb1d9e77911f1abe37405016839d8436a9825
 vendor/lib/libqtigef.so|3fba1e7a22a0b75be6bace643aaa8ead110c1233
 vendor/lib/libresampler.so|8edd3e46d46ad53469487f172219aec3a5a840b5
 vendor/lib/libsmwrapper.so|71a8166b84c4c9a06f1308370d23e68a1b243e0e
-vendor/lib/libssrec.so|155ba7e253c0eb8a85854588636167789c85ac7d
+vendor/lib/libssrec.so:vendor/lib/libssrec_lmi.so|155ba7e253c0eb8a85854588636167789c85ac7d
 vendor/lib/libstagefright_soft_qtiflacdec.so|91f8eca9057bfbf0c47c4ea1710cd34347d9bf22
 vendor/lib/libsurround_3mic_proc.so|e8e086123e0c1dc17f008f97edb3611cd4c702e1
 vendor/lib/libtinycompress.so|b53a73f53c1c5b189c55f4f5f37ecd40dc47b36d
