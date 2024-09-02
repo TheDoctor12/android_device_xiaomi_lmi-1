@@ -63,6 +63,10 @@ function blob_fixup() {
             [ -n "$(tail -c 1 "${2}")" ] && echo >> "${2}"
             grep -q "gettid: 1" "${2}" || echo "gettid: 1" >> "${2}"
             ;;
+        vendor/lib/hw/audio.primary.lmi.so)
+            sed -i "s|/vendor/lib/liba2dpoffload\.so|liba2dpoffload_lmi\.so\x00\x00\x00\x00\x00\x00\x00|g" "${2}"
+            sed -i "s|/vendor/lib/libssrec\.so|libssrec_lmi\.so\x00\x00\x00\x00\x00\x00\x00|g" "${2}"
+            ;;
     esac
 }
 
