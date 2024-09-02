@@ -294,7 +294,7 @@ vendor/lib64/libfocus.so|c482e083f1d5e40cf3702d8dd49ccd4f6b5473fa
 vendor/lib64/libft2vendor.so|fd87e8dbbb193d263d60bd352813b686633cba65
 vendor/lib64/libHalSuperSensorServer.so|fdb83a8bf01ad84340951381b1f9481fbfaa95d4
 vendor/lib64/libipebpsstriping.so|0894e54002e18443481f0b90e87c32fcc8783c38
-vendor/lib64/libmegface.so|8f67d986f23a110e48a2c6c57024ac3dee4993aa
+vendor/lib64/libmegface.so;MODULE_SUFFIX=_vendor|8f67d986f23a110e48a2c6c57024ac3dee4993aa
 vendor/lib64/libMegviiFacepp-0.5.2.so|a439145c3700d62446af21fe385775e6d5cb1a9a
 vendor/lib64/libMIAIHDRhvx_interface.so;DISABLE_CHECKELF|8f3b1ec1c38b16b457d0dfc8bfab705c2a8ca258
 vendor/lib64/libmialgoengine.so;DISABLE_CHECKELF|4b3c5b1fb66613abcd44a6a3f06aa87370e74ed6
@@ -568,24 +568,24 @@ vendor/lib64/libjnihelper.so
 vendor/lib64/libwms.so 
 vendor/lib64/libwqe.so;DISABLE_CHECKELF 
 vendor/lib64/libxml.so 
-vendor/lib64/vendor.qti.data.factory@2.0.so 
-vendor/lib64/vendor.qti.data.factory@2.1.so 
-vendor/lib64/vendor.qti.data.factory@2.2.so 
-vendor/lib64/vendor.qti.data.factory@2.3.so 
-vendor/lib64/vendor.qti.data.mwqem@1.0.so 
-vendor/lib64/vendor.qti.data.slm@1.0.so 
+vendor/lib64/vendor.qti.data.factory@2.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.data.factory@2.1.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.data.factory@2.2.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.data.factory@2.3.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.data.mwqem@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.data.slm@1.0.so;MODULE_SUFFIX=_vendor 
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so 
-vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so 
-vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so 
-vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so 
-vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so 
-vendor/lib64/vendor.qti.hardware.data.latency@1.0.so 
-vendor/lib64/vendor.qti.hardware.data.lce@1.0.so 
-vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so 
-vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so 
-vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so 
-vendor/lib64/vendor.qti.latency@2.0.so 
-vendor/lib64/vendor.qti.latency@2.1.so 
+vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.data.latency@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.data.lce@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.latency@2.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.latency@2.1.so;MODULE_SUFFIX=_vendor 
 
 # Consumer IR - MIUI
 vendor/lib64/hw/consumerir.default.so|c5c8947ace6c6479914a57ad609a961eebf0b949
@@ -611,7 +611,7 @@ vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 # DPM
 vendor/bin/dpmQmiMgr 
 vendor/etc/init/dpmQmiMgr.rc 
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so 
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE_SUFFIX=_vendor 
 vendor/lib64/libdpmqmihal.so 
 
 # Data
@@ -644,11 +644,11 @@ vendor/lib64/libnlnetmgr.so
 vendor/lib64/libqcmaputils.so 
 vendor/lib64/libqdi.so 
 vendor/lib64/libqdp.so 
-vendor/lib64/vendor.qti.hardware.embmssl@1.0-adapter-helper.so 
-vendor/lib64/vendor.qti.hardware.embmssl@1.0.so 
-vendor/lib64/vendor.qti.hardware.embmssl@1.1-adapter-helper.so 
-vendor/lib64/vendor.qti.hardware.embmssl@1.1.so 
-vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so 
+vendor/lib64/vendor.qti.hardware.embmssl@1.0-adapter-helper.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.embmssl@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.embmssl@1.1-adapter-helper.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.embmssl@1.1.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so;MODULE_SUFFIX=_vendor 
 
 # Data (firmware) - MIUI
 vendor/firmware/ipa_fws.b00|5b8bc4a7ef9f033e836854e21532e8eaf5b73e99
@@ -723,14 +723,14 @@ vendor/etc/init/imsdatadaemon.rc
 vendor/etc/init/imsqmidaemon.rc 
 vendor/etc/init/imsrcsd.rc 
 vendor/etc/seccomp_policy/imsrtp.policy 
-vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so 
-vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so 
-vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so 
-vendor/lib64/com.qualcomm.qti.imscmservice@2.2.so 
-vendor/lib64/com.qualcomm.qti.uceservice@2.0.so 
-vendor/lib64/com.qualcomm.qti.uceservice@2.1.so 
-vendor/lib64/com.qualcomm.qti.uceservice@2.2.so 
-vendor/lib64/com.qualcomm.qti.uceservice@2.3.so 
+vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/com.qualcomm.qti.imscmservice@2.2.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/com.qualcomm.qti.uceservice@2.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/com.qualcomm.qti.uceservice@2.1.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/com.qualcomm.qti.uceservice@2.2.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/com.qualcomm.qti.uceservice@2.3.so;MODULE_SUFFIX=_vendor 
 vendor/lib64/lib-imscmservice.so 
 vendor/lib64/lib-imsdpl.so 
 vendor/lib64/lib-imsqimf.so 
@@ -745,15 +745,15 @@ vendor/lib64/lib-rtpsl.so
 vendor/lib64/lib-siputility.so 
 vendor/lib64/lib-uceservice.so 
 vendor/lib64/librcc.so 
-vendor/lib64/vendor.qti.ims.callcapability@1.0.so 
-vendor/lib64/vendor.qti.ims.callinfo@1.0.so 
-vendor/lib64/vendor.qti.ims.factory@1.0.so 
-vendor/lib64/vendor.qti.ims.factory@1.1.so 
-vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so 
-vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so 
-vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so 
-vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so 
-vendor/lib64/vendor.qti.imsrtpservice@3.0.so 
+vendor/lib64/vendor.qti.ims.callcapability@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.ims.callinfo@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.ims.factory@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.ims.factory@1.1.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE_SUFFIX=_vendor 
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so 
 
 # Keymaster
@@ -800,8 +800,8 @@ vendor/lib64/vendor.qti.hardware.factory@1.0.so
 vendor/lib64/vendor.qti.hardware.factory@1.1.so 
 
 # MM OSAL
-vendor/lib/libmmosal.so 
-vendor/lib64/libmmosal.so 
+vendor/lib/libmmosal.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/libmmosal.so;MODULE_SUFFIX=_vendor 
 
 # NFC
 vendor/etc/libnfc-mtp-SN100.conf 
@@ -917,38 +917,38 @@ vendor/lib64/libsettings.so
 vendor/lib64/qcrild_librilutils.so 
 vendor/lib64/qtibus.so 
 vendor/lib64/qtimutex.so 
-vendor/lib64/vendor.qti.hardware.data.connection@1.0.so 
-vendor/lib64/vendor.qti.hardware.data.connection@1.1.so 
-vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so 
-vendor/lib64/vendor.qti.hardware.radio.am@1.0.so 
-vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so 
-vendor/lib64/vendor.qti.hardware.radio.ims@1.1.so 
-vendor/lib64/vendor.qti.hardware.radio.ims@1.2.so 
-vendor/lib64/vendor.qti.hardware.radio.ims@1.3.so 
-vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so 
-vendor/lib64/vendor.qti.hardware.radio.ims@1.5.so 
-vendor/lib64/vendor.qti.hardware.radio.ims@1.6.so 
-vendor/lib64/vendor.qti.hardware.radio.ims@1.7.so 
-vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so 
-vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so 
-vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so 
-vendor/lib64/vendor.qti.hardware.radio.lpa@1.2.so
-vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so 
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so 
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so 
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so 
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so 
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so 
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so 
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.5.so 
-vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.6.so 
-vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so 
-vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so 
-vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so 
-vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so 
-vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so 
-vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so 
-vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so 
+vendor/lib64/vendor.qti.hardware.data.connection@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.data.connection@1.1.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.am@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.ims@1.1.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.ims@1.2.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.ims@1.3.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.ims@1.5.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.ims@1.6.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.ims@1.7.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.lpa@1.2.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.5.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.6.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so;MODULE_SUFFIX=_vendor 
+vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so;MODULE_SUFFIX=_vendor 
 vendor/radio/qcril_database/upgrade/0_initial.sql 
 vendor/radio/qcril_database/upgrade/1_version_intro.sql 
 vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql 
@@ -1228,7 +1228,7 @@ vendor/etc/init/tloc_daemon.rc
 vendor/bin/hw/vendor.qti.hardware.limits@1.0-service 
 vendor/etc/init/vendor.qti.hardware.limits@1.0-service.rc 
 vendor/etc/vintf/manifest/vendor.qti.hardware.limits@1.0-service.xml 
-vendor/lib64/vendor.qti.hardware.limits@1.0.so 
+vendor/lib64/vendor.qti.hardware.limits@1.0.so;MODULE_SUFFIX=_vendor 
 
 # Thermal - MIUI
 vendor/bin/mi_thermald|e995fe8bddc257a28c9266ebd0d548e53e2714c9
@@ -1454,5 +1454,5 @@ vendor/lib/libwfduibcsinkinterface_proprietary.so
 vendor/lib/libwfduibcsrc_proprietary.so
 vendor/lib/libwfduibcsrcinterface_proprietary.so
 vendor/lib/libwfdutils_proprietary.so
-vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
+vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
