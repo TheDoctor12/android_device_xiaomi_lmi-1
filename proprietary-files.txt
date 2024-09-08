@@ -1307,14 +1307,12 @@ vendor/firmware/Vigor_RTP.bin|1e4315664b65a3ce3827fd8454996254035e8650
 vendor/bin/vppservice 
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/init/vppservice.rc 
-vendor/lib/libOmxVpp.so 
 vendor/lib/libvppclient.so 
 vendor/lib/libvpphcp.so 
 vendor/lib/libvpphvx.so 
 vendor/lib/libvppimmotion.so 
 vendor/lib/libvpplibrary.so 
 vendor/lib/libvpptestutils.so 
-vendor/lib64/libOmxVpp.so 
 vendor/lib64/libvppclient.so 
 vendor/lib64/libvpphcp.so 
 vendor/lib64/libvpphvx.so 

@@ -214,6 +214,12 @@ PRODUCT_PACKAGES += \
 
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
 
+# Media
+TARGET_SUPPORTS_OMX_SERVICE := false
+
+PRODUCT_VENDOR_PROPERTIES += \
+    vendor.media.omx=0
+
 # Motor
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.motor@1.0.vendor
