@@ -113,6 +113,7 @@ BOARD_RAMDISK_USE_LZ4 := true
 KERNEL_DEFCONFIG := lmi_defconfig
 
 KERNEL_CUSTOM_LLVM := true
+KERNEL_CUSTOM_LLVM_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r522817
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
