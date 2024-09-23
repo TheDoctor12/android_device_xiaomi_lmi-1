@@ -163,15 +163,6 @@ vendor/lib/libtinycompress.so|b53a73f53c1c5b189c55f4f5f37ecd40dc47b36d
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so|ed13a1c435bbc1320ceedeafab62db39fec2e34d
 vendor/lib/vendor.qti.voiceprint@1.0.so|5325739853aef4d9b7a752cec9e607e4f7e86ebf
 vendor/lib/vndk/libxlog.so|dad5169deb3296ca1ff4d7e9546e4229cda277b9
-vendor/lib64/libOmxAacDec.so|4ccc86e21355b7de221dcb4b87340235f1729a95
-vendor/lib64/libOmxAlacDec.so|123d0020457c3723a4d0603e7db5d692176d08c2
-vendor/lib64/libOmxAmrDec.so|89fad75423874c24837dbe0aa8b71741b1315ed9
-vendor/lib64/libOmxAmrwbplusDec.so|6d12a11fc77135053172f8f19fa1f0b048dc04fb
-vendor/lib64/libOmxApeDec.so|ecd0b70bc23728f01046f575bd410d09e6f8543c
-vendor/lib64/libOmxEvrcDec.so|a793c523f124535ae7591fe76ca6f2eba3f38d8f
-vendor/lib64/libOmxG711Dec.so|1742c2681fb642f2a596d0bb5763d69990aef862
-vendor/lib64/libOmxQcelp13Dec.so|d3d11987b8dc3c6605ed79b7f34537a325dfbf79
-vendor/lib64/libOmxWmaDec.so|0c1ff8361619d68ce53340feb827cd7e65f6d1f9
 
 # Audio firmware - MIUI
 vendor/firmware/tfa98xx.cnt|bf6e8790f697c893604e47f1b68aa217d8b584c3
