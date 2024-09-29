@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Platform
+TARGET_BOARD_PLATFORM := kona
+
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
@@ -236,9 +239,6 @@ PRODUCT_PACKAGES += \
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-
-# Platform
-TARGET_BOARD_PLATFORM := kona
 
 # Popup Camera Settings
 PRODUCT_PACKAGES += \
