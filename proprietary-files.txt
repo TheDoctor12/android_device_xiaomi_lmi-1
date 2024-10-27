@@ -28,8 +28,6 @@ vendor/firmware/a650_zap.elf|b8e9dffe3f1cbb9afd0c7c1a8d5a68679f53dab8
 vendor/firmware/a650_zap.mdt|4273de2e2b330a7c1e5a6324a382c45ba37c3cf1
 
 # ADSP modules - MIUI
-vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
-vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so|5e3d26890b77acce2bb4c82017c2bc2a5534c1d5
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so|1d83da21aeafa15ff327a59e761099910cfec563
 vendor/lib/rfsa/adsp/hrtf5c.bin|8bf76971487be92028b7908ef519521fe5faeffe
@@ -56,8 +54,8 @@ vendor/lib/rfsa/adsp/libsnpe_dsp_domains_skel.so|5dbe76365e5d732f58e7d04e315c8c7
 vendor/lib/rfsa/adsp/libsnpe_dsp_skel.so|615cc166b91f0b605d689c4bdcc45a8283cf40cf
 vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so|13f18561630bfacc07d165ac4c58be9235c2af99
 vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so|be1c95bf8e1cccfcc9ef8c495e756d0f5f91f181
-vendor/lib/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
-vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
+vendor/lib/rfsa/adsp/libsns_device_mode_skel.so;SYMLINK=vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
+vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so;SYMLINK=vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
 vendor/lib/rfsa/adsp/libSuperSensor_skel.so|4d796f47d7dda6aacbc6506e247e20962374cd66
 vendor/lib/rfsa/adsp/misound_karaokemix_res.bin|bd7aa75d2f402e08f8d951f80d05c045e292a593
 vendor/lib/rfsa/adsp/misound_karaoke_res.bin|bd7aa75d2f402e08f8d951f80d05c045e292a593
