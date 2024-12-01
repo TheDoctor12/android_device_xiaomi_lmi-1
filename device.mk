@@ -256,8 +256,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 CUSTOM_BUILD_FLAVOR := qssi-user
 TARGET_COMMON_QTI_COMPONENTS := \
     all \
-    charging \
-    keymaster
+    charging
 
 # Recovery
 PRODUCT_VENDOR_PROPERTIES += \
