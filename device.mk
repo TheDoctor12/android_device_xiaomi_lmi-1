@@ -262,8 +262,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
     all \
-    charging \
-    keymaster
+    charging
 
 # Recovery
 PRODUCT_VENDOR_PROPERTIES += \
@@ -326,6 +325,8 @@ PRODUCT_EXTRA_VNDK_VERSIONS := 30
 
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
+    android.hardware.gatekeeper@1.0.vendor \
+    android.hardware.keymaster@4.1.vendor \
     android.hardware.neuralnetworks@1.3.vendor
 
 # WiFi firmware symlinks
