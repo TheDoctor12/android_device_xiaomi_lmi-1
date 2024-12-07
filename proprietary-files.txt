@@ -114,17 +114,16 @@ vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp|bec8ff6fd080c92828a5fa56ef1ed
 vendor/etc/acdbdata/adsp_avs_config.acdb|bd5453d6fd844ccc4a5160a4cbd7871dcd1aa655
 
 # Audio - MIUI
-vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.lmi.so;FIX_SONAME|cd4503723654e0e8be160d5dda96c44730484292
+vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.lmi.so;FIX_SONAME|47cbc464dea8bf75bfe34d2c05a2e63e4d048b63
 vendor/lib/hw/sound_trigger.primary.kona.so|a92730e808e5cca4ed289aaff8d2adf0cc2e7906
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so|ee89b7cb4e0476688ac8c1a669dfe89c660b1a76
-vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_lmi.so;FIX_SONAME|80979b4fd8d7488f59b19faf541a57a3da7fd3e1
+vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_lmi.so;FIX_SONAME|4d95159853102b30ef887a89c9f2c787ee4e8684
 vendor/lib/libacdb-fts.so|f433dcd0ecd2bce239b31e1e3a8995acb96f3b5e
 vendor/lib/libacdbloader.so|2b8490869f1ef4e56e7f86d3e95a474bca7ff23b
 vendor/lib/libacdbrtac.so|27bde7dc2f546ae498d5f7956e21f2ce594c9d03
 vendor/lib/libadiertac.so|ab2fffee27bf0eea612521eaa1c963508c5f76bb
 vendor/lib/libadm.so|1954acdfa454e83054bb7d7656b8f276287f8a22
 vendor/lib/libadpcmdec.so|297d8fecff85b6dc67ff19e788bcf3f1286014a0
-vendor/lib/libalsautils.so|1bd13fc7ddcfe774a71384bcad0321cde0680242
 vendor/lib/libaudcal.so|3fae51a9e47daa9eef52bf061cf00a282c5352ef
 vendor/lib/libaudio_log_utils.so|da677ff82cbec353a2851a7556a2fa37992d6e2c
 vendor/lib/libaudioalsa.so|486cde43c2d135e0cceb862126b56ef0647d3a71
@@ -145,7 +144,7 @@ vendor/lib/libmulawdec.so|89ebb1d9e77911f1abe37405016839d8436a9825
 vendor/lib/libqtigef.so|3fba1e7a22a0b75be6bace643aaa8ead110c1233
 vendor/lib/libresampler.so|8edd3e46d46ad53469487f172219aec3a5a840b5
 vendor/lib/libsmwrapper.so|71a8166b84c4c9a06f1308370d23e68a1b243e0e
-vendor/lib/libssrec.so:vendor/lib/libssrec_lmi.so;FIX_SONAME|155ba7e253c0eb8a85854588636167789c85ac7d
+vendor/lib/libssrec.so:vendor/lib/libssrec_lmi.so;FIX_SONAME|95c00dd7bdc6e7c8148a4af149fc7591f8311e88
 vendor/lib/libstagefright_soft_qtiflacdec.so|91f8eca9057bfbf0c47c4ea1710cd34347d9bf22
 vendor/lib/libsurround_3mic_proc.so|e8e086123e0c1dc17f008f97edb3611cd4c702e1
 vendor/lib/libtinycompress.so|b53a73f53c1c5b189c55f4f5f37ecd40dc47b36d
@@ -205,6 +204,7 @@ vendor/bin/batterysecret|7fc17a38e688aa68b416ebfb230f5cc95bdbf901
 vendor/etc/init/init.batterysecret.rc|b4a4a599537c84211527f9892fcf89dbaaae65c5
 
 # Camera - MIUI
+vendor/lib/libnanopb.so|1189d5617875576437cf14ff77bcaa2beaf19775
 vendor/lib64/camera/com.qti.eeprom.lmi_sunny_imx686_gt24p64b.so|ac99ecbf224eec040b8146e1bd293ccb2a879e24
 vendor/lib64/camera/com.qti.eeprom.lmi_sunny_imx686_gt24p64b_st.so|9e403ca03cf400434150589e054dc06a99d6c405
 vendor/lib64/camera/com.qti.eeprom.lmi_sunny_ov08a10_gt24p64.so|88d953941ae9604c9f11f9d918613a9068723761
@@ -315,9 +315,9 @@ vendor/lib64/libmpbase.so|e6b51e2d501f434eea15ecdc275011d1498301ae
 vendor/lib64/libmulticam_image_optical_zoom.so|8db066285906d51b98e196104546199c7390c629
 vendor/lib64/libmulticam_video_optical_zoom.so|4d13a274712f3bea6da7e0926150c154ea2e25eb
 vendor/lib64/libmulticam_optical_zoom_control.so|e72adf2073f1c87c5854e49ddf5d1d641aca676a
+vendor/lib64/libnanopb.so|c9009f4d360cf826e6a3dadaab4f976f97c9384d
 vendor/lib64/libofflinelog.so|cdaca3cb57fb9621abe31d48d355cfc7d45f62cb
 vendor/lib64/libos.so|8079ca803f47140e849aa232ce91f5dcb996db99
-vendor/lib64/libpowercore.so|19fb52650f6a49fc6a8bfcee6afeb4f4c29ac4aa
 vendor/lib64/librelight_only.so|d8c4dff7c0512e801220a8400a68fe1d03662036
 vendor/lib64/libremosaichvx_stub.so|010097a8581a6f46024d01ea74fe63d9ad7f8900
 vendor/lib64/libremosaiclib.so|dae657b1006b3892c29e6b9cb7e7d0522f562e66
@@ -339,7 +339,6 @@ vendor/lib64/libsupermoon.so|035bf6aab716b8d31a2caa7084c4e91221db5c3f
 vendor/lib64/libSuperSensor.so|f94bbdafbb47db109b2ccba8ad13d6b17d47ba2e
 vendor/lib64/libSuperSensorCPU.so|083a141a1ae33e418947c232b19c970e4783825d
 vendor/lib64/libswregistrationalgo.so|d201822ab74ba53e3ace2919058341e180c9033a
-vendor/lib64/libswvdec.so|e50cc714152873d4fdcabd3ed1bbf9e635725b78
 vendor/lib64/libsymphony-cpu.so|3afd3b3c0a5ea650dc307deda554794059c77538
 vendor/lib64/libsynx.so|23c3aadaf6c0d26d0784749cedb6baa3db40dd12
 vendor/lib64/libthreadutils.so|0d0645c45adc7cf4a156daae3501830ce80f406c
@@ -602,7 +601,6 @@ vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
 vendor/bin/ssgqmigd 
 vendor/bin/ssgtzd 
 vendor/etc/init/ssgtzd.rc 
-vendor/lib64/libminksocket.so 
 
 # CVP
 vendor/lib64/libcvpcpuRev_skel.so 
@@ -632,6 +630,7 @@ vendor/etc/init/netmgrd.rc
 vendor/etc/init/port-bridge.rc 
 vendor/etc/init/shsusrd.rc 
 vendor/etc/seccomp_policy/atfwd@2.0.policy 
+vendor/lib/libdsutils.so 
 vendor/lib64/libconfigdb.so 
 vendor/lib64/libdsi_netctrl.so 
 vendor/lib64/libdsutils.so 
@@ -676,16 +675,8 @@ vendor/etc/init/feature_enabler_client.rc
 vendor/etc/init/qdcmss.rc 
 vendor/etc/init/vendor.display.color@1.0-service.rc 
 vendor/lib64/libdisp-aba.so 
-vendor/lib64/libdisplayskuutils.so 
 vendor/lib64/libdpps.so 
 vendor/lib64/libmm-hdcpmgr.so 
-vendor/lib64/vendor.display.color@1.0.so 
-vendor/lib64/vendor.display.color@1.1.so 
-vendor/lib64/vendor.display.color@1.2.so 
-vendor/lib64/vendor.display.color@1.3.so 
-vendor/lib64/vendor.display.color@1.4.so 
-vendor/lib64/vendor.display.color@1.5.so 
-vendor/lib64/vendor.display.postproc@1.0.so
 
 # Display-calibration - MIUI
 vendor/etc/ltm_config_xiaomi_j11_38_08_0a_fhd_panel.xml|f04531c2bae0e7404fb05698da568ec6b4b17511
@@ -875,7 +866,6 @@ vendor/lib/libqmi_csvt_srvc.so
 vendor/lib/libqmi_encdec.so 
 vendor/lib/libqmi_legacy.so 
 vendor/lib/libqmiservices.so 
-vendor/lib/libqrtr.so 
 vendor/lib/libqsocket.so 
 vendor/lib/libsmemlog.so 
 vendor/lib/libsystem_health_mon.so 
@@ -893,7 +883,6 @@ vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmi_legacy.so 
 vendor/lib64/libqmiextservices.so 
 vendor/lib64/libqmiservices.so 
-vendor/lib64/libqrtr.so 
 vendor/lib64/libqsocket.so 
 vendor/lib64/libsmemlog.so 
 vendor/lib64/libsystem_health_mon.so 
@@ -1016,6 +1005,7 @@ vendor/etc/ssg/ta_config.json
 vendor/etc/ssg/tz_whitelist.json 
 vendor/lib64/libminkdescriptor.so 
 vendor/lib64/libnative-api.so 
+vendor/lib64/libqcbor.so 
 
 # Sensors - MIUI
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service|9712de3546d87ef2b3a96e8a745de5afa441c400
@@ -1026,11 +1016,13 @@ vendor/etc/init/init.vendor.sensors.rc|8d286f50fd261dc8843c6a208386b535cc07641e
 vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc|449c88778d880c0d47cc4d651fc60c4c424c1a3f
 vendor/etc/init/vendor.sensors.qti.rc|9a3db138bc4848b720e0839235a3e074259b78c1
 vendor/etc/init/vendor.sensors.sscrpcd.rc|df52901f1ad0fbc97d6070e28896a6be40154814
+vendor/lib/libssccalapi.so|9307d23f15425b89d34fc1509cc4a71bbdd544b3
 vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so|c8a5dcbb7a892bffda1a9cc398dd0280a7422371
 vendor/lib64/libnotifyaudiohal.so|c6d53e28c977f92e974b85dfb532734b42d44231
 vendor/lib64/libsensorcal.so|6c7275b7fd887475e3e090284ab56d115ea1ecc1
 vendor/lib64/libsensorslog.so|8df3d0d6ccf65d88b98788fd65bd1918c022a264
 vendor/lib64/libssc.so|1f95897ef2a482d452d71d242cca7b4f6c4acfba
+vendor/lib64/libssccalapi.so|3eec6a41718742ef65f1ab8e3d410170a54d37a4
 vendor/lib64/libultrasound.so|99ba87b30969ee01026bfe33b2348f0e933fe2b6
 vendor/lib64/sensors.elliptic.so|60d2badb6950b36697fabf8886890de503975e11
 vendor/lib64/sensors.ssc.so|3b32d13b1beeafe8694911ff4e7f59408d6a15dc
@@ -1188,6 +1180,7 @@ vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libsecureui.so 
 vendor/lib64/libsi.so 
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so 
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so 
 
 # SecureMSM
 vendor/bin/hdcp1prov 
@@ -1219,10 +1212,6 @@ vendor/bin/ssr_setup
 # TFTP
 vendor/bin/tftp_server;DISABLE_CHECKELF 
 vendor/etc/init/vendor.qti.tftp.rc 
-
-# TLOC
-vendor/bin/tloc_daemon 
-vendor/etc/init/tloc_daemon.rc 
 
 # Thermal (limits-hal)
 vendor/bin/hw/vendor.qti.hardware.limits@1.0-service 
@@ -1262,9 +1251,6 @@ vendor/lib64/libtime_genoff.so
 vendor/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service|dc27181a449029c29eb860916db15c3c338b6602
 vendor/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc|3def34d082c4b5e1e31ce769473bcb46cf26fb8d
 vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so|b22d2e4c0efc75a343a73b6846bbf145d70f7fa7
-
-# UBWC
-vendor/lib/libstreamparser.so 
 
 # Vibrator firmware - MIUI
 vendor/firmware/AcousticGuitar_RTP.bin|143c14ddffbf726fe417f0164549408b3be7acc5
@@ -1417,7 +1403,7 @@ vendor/lib64/mediadrm/libwvdrmengine.so|f2efd7aca365d6b09f906ff4f71fc24881cda816
 vendor/lib64/libwvhidl.so|3325405fc88d83ce1f9cd7a77fb4c81fae603f00
 
 # WiFi - MIUI
-vendor/bin/cnss-daemon|8ab1521554029afd7535d580b3aba69eb3efb206
+vendor/bin/cnss-daemon;MODULE_SUFFIX=_lmi;OVERRIDES=cnss-daemon|8ab1521554029afd7535d580b3aba69eb3efb206
 vendor/bin/nv_mac|e2f1ef1af56ccee4c630c9c939f1937127940a9f
 
 # WiFi Display
