@@ -628,6 +628,7 @@ vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
 vendor/bin/ssgqmigd 
 vendor/bin/ssgtzd 
 vendor/etc/init/ssgtzd.rc 
+vendor/lib64/libminksocket.so 
 
 # CVP
 vendor/lib64/libcvp2.so 
@@ -691,6 +692,10 @@ vendor/firmware/ipa_uc.b01|d6c2a8092d76f8b7488229bd79c91f468f2ef4ad
 vendor/firmware/ipa_uc.b02|4c7bcc7e9e5285194d271931d31128a6a6660823
 vendor/firmware/ipa_uc.elf|a364a4ea39f35109a1101d2e911f020b348234bd
 vendor/firmware/ipa_uc.mdt|09b7d8fe797722ad3cfe8972e4c42191ff43dd0b
+
+# Diag
+vendor/lib/libdiag.so 
+vendor/lib64/libdiag.so 
 
 # Display
 vendor/bin/hw/vendor.display.color@1.0-service 
@@ -964,13 +969,26 @@ vendor/radio/qcril_database/qcril.db
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service 
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc 
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so 
+vendor/lib64/libGPQTEEC_vendor.so 
+vendor/lib64/libGPTEE_vendor.so 
 vendor/lib64/libQTEEConnector_listener.so 
+vendor/lib64/libQTEEConnector_vendor.so 
+vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so 
 
 # QSEECOM
 vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service 
+vendor/bin/qseecomd 
+vendor/etc/init/qseecomd.rc 
 vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc 
 vendor/etc/gpfspath_oem_config.xml 
 vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so 
+vendor/lib64/libGPreqcancel.so 
+vendor/lib64/libGPreqcancel_svc.so 
+vendor/lib64/libQSEEComAPI.so 
+vendor/lib64/libdrmfs.so 
+vendor/lib64/libdrmtime.so 
+vendor/lib64/librpmb.so 
+vendor/lib64/libssd.so 
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so 
 
 # RemoteFS
@@ -998,6 +1016,7 @@ vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 # SMC Invoke
 vendor/etc/ssg/ta_config.json 
 vendor/etc/ssg/tz_whitelist.json 
+vendor/lib64/libminkdescriptor.so 
 vendor/lib64/libnative-api.so 
 
 # Sensors - MIUI
@@ -1096,13 +1115,19 @@ vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 # SecureMSM
 vendor/bin/hdcp1prov 
 vendor/bin/hdcp2p2prov 
-vendor/lib64/libhdcpsrm.so 
+vendor/lib64/libbase64.so 
+vendor/lib64/libcpion.so 
 vendor/lib64/libhdcp1prov.so 
 vendor/lib64/libhdcp2p2prov.so 
+vendor/lib64/libhdcpsrm.so 
 vendor/lib64/liboemcrypto.so 
+vendor/lib64/libops.so 
 vendor/lib64/libpvr.so 
+vendor/lib64/libqisl.so 
 vendor/lib64/librmp.so 
 vendor/lib64/libspl.so 
+vendor/lib64/libtrustedapploader.so 
+vendor/lib64/libtzdrmgenprov.so 
 
 # Soter
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service 
