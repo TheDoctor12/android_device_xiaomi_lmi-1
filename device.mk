@@ -258,8 +258,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     all \
     charging \
     dsprpcd \
-    keymaster \
-    qseecomd
+    keymaster
 
 # Recovery
 PRODUCT_VENDOR_PROPERTIES += \
