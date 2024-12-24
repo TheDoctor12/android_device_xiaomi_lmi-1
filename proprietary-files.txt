@@ -777,7 +777,7 @@ vendor/lib/libmmosal.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libmmosal.so;MODULE_SUFFIX=_vendor 
 
 # NFC - MIUI
-vendor/etc/libnfc-nci.conf|e3c02b4855b314bd7be008db6a7c8fc9d855147c
+vendor/etc/libnfc-nci.conf|d1e48edb366df1b691afad629323ea74ab6416b9
 vendor/etc/libnfc-nxp-pnscr.conf|c9bbf87032cf73dc0b76793a15eff838f11ebf84
 vendor/etc/libnfc-nxp.conf|a11024d2ba91af4ede5b665725b8f1e8b33bf108
 vendor/etc/libnfc-nxp_RF.conf|dc9d9e7cb16ba04da58e96f40f187fa79ef53756
@@ -1067,6 +1067,11 @@ vendor/etc/sensors/config/tsl2560_pol.json|bc456b41faff5651c6034ee49082ec6eabd3a
 vendor/etc/sensors/sensor_diag.cfg|a90a807b6e1a0ff524e13b0cc0e05a1a2845d48d
 vendor/etc/sensors/sns_reg_config|cea8c9f674c039de77bb7f743d8a9122ab8b6897
 vendor/etc/elliptic_sensor.xml|c821cade58e0f10972fc5c81c24044db71e0619a
+
+# Secure element
+vendor/lib64/jcos_nq_client.so
+vendor/lib64/ls_nq_client.so
+vendor/lib64/se_nq_extn_client.so
 
 # SecureMSM (GPQESE)
 vendor/bin/hw/vendor.qti.esepowermanager@1.1-service 
