@@ -13,6 +13,16 @@
      limitations under the License.
 -->
 <compatibility-matrix version="1.0" type="framework">
+    <!-- Consumer IR -->
+    <hal format="hidl">
+        <name>android.hardware.ir</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IConsumerIr</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <!-- Fingerprint -->
     <hal format="hidl" optional="true">
         <name>vendor.goodix.hardware.biometrics.fingerprint</name>
@@ -42,6 +52,16 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::IMotor/default</fqname>
+    </hal>
+    <!-- Sensors -->
+    <hal format="hidl">
+        <name>android.hardware.sensors</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ISensors</name>
+            <instance>default</instance>
+        </interface>
     </hal>
     <!-- Touchfeature -->
     <hal format="hidl" optional="true">
