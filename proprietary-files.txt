@@ -799,10 +799,12 @@ vendor/lib64/vendor.qti.hardware.factory@1.1.so
 vendor/lib/libmmosal.so 
 vendor/lib64/libmmosal.so 
 
-# NFC
-vendor/etc/libnfc-mtp-SN100.conf 
-vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf 
-vendor/lib/libsn100u_fw.so 
+# NFC - MIUI
+vendor/etc/libnfc-nci.conf|e3c02b4855b314bd7be008db6a7c8fc9d855147c
+vendor/etc/libnfc-nxp-pnscr.conf|c9bbf87032cf73dc0b76793a15eff838f11ebf84
+vendor/etc/libnfc-nxp.conf|a11024d2ba91af4ede5b665725b8f1e8b33bf108
+vendor/etc/libnfc-nxp_RF.conf|dc9d9e7cb16ba04da58e96f40f187fa79ef53756
+vendor/lib/libsn100u_fw.so|127d8580e89f9b6170abf7625c6e0d5433227aff
 
 # NPU
 vendor/bin/npu_launcher 
